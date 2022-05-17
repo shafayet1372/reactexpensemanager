@@ -1,0 +1,85 @@
+.container_fix {
+  width: 59vw !important;
+  margin: 0 auto;
+}
+
+.expense_header {
+  min-height: 100px !important;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.add_expense {
+  background-color: #f5f6fa;
+  height: 100% !important;
+}
+.add_date {
+  background-color: #7f8fa6;
+  height: 100% !important;
+}
+.add_expense:hover {
+  background-color: #d2d2d5f3;
+  cursor: pointer;
+}
+.add_date:hover {
+  background-color: #7f8fa68a;
+  cursor: pointer;
+}
+.icon {
+  font-size: 30px;
+  color: #0dcaf0;
+}
+.balance_bg {
+  background-color: #0dcaf0 !important;
+}
+.balance_icon {
+  color: #0dcaf0;
+  font-weight: bold;
+  background-color: white;
+}
+
+.expense_main {
+  border: 1px solid rgba(245, 5, 5, 0.824);
+  border-style: dashed;
+}
+
+.input_date {
+  color: white;
+  font-size: 40px;
+}
+.input_date:hover {
+  cursor: pointer;
+  color: grey;
+}
+.back_icon {
+  font-size: 30px;
+}
+.back_icon:hover {
+  color: grey;
+  cursor: pointer;
+}
+.delete_icon,
+.edit_icon {
+  font-size: 16px;
+}
+.delete_icon:hover,
+.edit_icon:hover {
+  cursor: pointer;
+  color: orange;
+}
+.income_color {
+  background-color: #009432 !important;
+}
+.expense_color {
+  background-color: #ea2027 !important;
+}
+.income_color:hover,
+.expense_color:hover {
+  cursor: pointer;
+  background-color: grey !important;
+}
+@media screen and (max-width: 576px) {
+  .container_fix {
+    width: 100vw !important;
+    margin: 0 auto;
+  }
+}
