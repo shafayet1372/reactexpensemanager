@@ -106,7 +106,7 @@ export default function Master() {
   let showDataList = () => {
     let { getSortedData } = getAllData();
     return (
-      <Row className="my-2  ">
+      <Row className="my-2 px-2 ">
         {" "}
         <Col className="p-0">
           <DataView datas={getSortedData} editHandler={editHandler} />
@@ -116,7 +116,7 @@ export default function Master() {
   };
 
   return (
-    <Container className={style.container_fix}>
+    <Container className={`style.container_fix `}>
       {createMode ? (
         <Row>
           <Col>
